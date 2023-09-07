@@ -1,0 +1,79 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+body{
+	background-image:url(hero.jpeg);
+	background-size:cover
+	background-position:center
+	box-sizing:border-box:
+	}
+.menu-bar{
+	background:rgba(0,0,0);
+	text-align:center;
+	
+}
+ .menu-bar ul
+ {
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+	
+}
+ .menu-bar ul li
+ {
+	       width:120px;
+		   margin:15px;
+		   padding:15px;
+	
+	
+}
+.sub-menu-1{
+	display:none;
+	
+}
+ .menu-bar ul li:hover .sub-menu-1
+ {
+	 display:block;
+	 position:absolute;
+	 background:rgb(0,0,0);
+	 margin-top:15px;
+	 margin-left:15px;
+	 
+	 
+ }
+  .menu-bar ul li:hover .sub-menu-1 ul
+  {
+  display:block;
+margin:10px;  
+	  
+  }
+  .h1{
+	  color:red;
+	  
+  }
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
